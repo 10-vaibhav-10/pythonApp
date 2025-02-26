@@ -2,7 +2,7 @@ import random
 
 
 r=random.randrange(0,101)
-print(r)
+#print(r)
 tt=0            #takes count of the attempt
 x=int(input("Enter any number you think of:"))
 while(x!=r):  
@@ -17,9 +17,10 @@ while(x!=r):
 
 
 if(x==r):
+     tt=tt+1
      print("You guessed the correct number")
     
-tt=tt+1
+
 print("You took",tt,"chances to get correct answer")
     
     
